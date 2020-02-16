@@ -2,16 +2,17 @@ package com.db.controller;
 
 import java.io.IOException;
 
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
 
 import com.db.operations.Operations;
 
 
-@RestController
-public class Controller {
+@SpringBootApplication
+public class Controller extends SpringBootServletInitializer{
 	
 	
 	
