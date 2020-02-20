@@ -10,8 +10,8 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 import com.db.operations.Operations;
 
-
-@SpringBootApplication
+@CrossOrigin
+@RestController
 public class Controller extends SpringBootServletInitializer{
 	
 	
